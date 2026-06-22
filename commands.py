@@ -5,8 +5,7 @@ from animal_manager import (get_animals, list_animals, get_animals_names)
 def say_animals(animal, message):
     if not message:
         return get_animals(animal) + "\n" + "Valid Usage: <command> | <animal> <message>"
-    output = speech_bubble(message) + get_animals(animal)
-    return output
+    return speech_bubble(message) + "\n" + get_animals(animal)
 
 
 def help_animals():
