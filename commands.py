@@ -20,15 +20,8 @@ def stats_animals():
     return "In progress, please visit later!"
 
 
-def exit_animals():
-    width = len("☆*: .｡. o(≧▽≦)o .｡.:*☆ ")
-    print("Goodbye!".center(width), "\n", "☆*:.｡. o(≧▽≦)o .｡.:*☆")
-    sys.exit()
-
-
 commands = {
     "list": list_animals,
     "stats": stats_animals,
     "help": help_animals,
-    "exit": exit_animals,
     }
