@@ -8,7 +8,7 @@ def load_animals():
     return animals
 
 
-def list_animals():
+def list_animals(randomtxt):
     output = []
     for i, animal in enumerate(animals, start=1):
         output.append(f"{i}. {animal}")

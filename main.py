@@ -7,7 +7,8 @@ def handler(text: str):
     parts = text.split(maxsplit=1)
     first_word = parts[0].lower()
     if first_word in commands:
-        return commands[first_word]()
+        message = parts[1] if len(parts) > 1 else ""
+        return commands[first_word](message)
     elif animal_exists(first_word):
         message = parts[1] if len(parts) > 1 else ""
         return say_animals(first_word, message)
