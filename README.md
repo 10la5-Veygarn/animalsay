@@ -3,8 +3,6 @@ A cowsay-inspired Slack bot which can generate ASCII art of multiple animals say
 
 ![Slack Demo](demos/slack-demo.gif)
 
-![Browser Demo](demos/browser-demo.gif)
-
 ## **Architecture**
 
 ![Architecture](demos/animalsay-flow.png)

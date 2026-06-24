@@ -22,4 +22,6 @@ The tracker will, for obvious reasons, remain one commit behind main (because pu
  - Commit #16 (588e61f) to add demo files
  - Commit #17 (cfdf170) for changes.md
  - Commit #18 (f6525e9) fixed README.md paths
- - Commit #19 () for changes.md
+ - Commit #19 (989a36c) for changes.md
+ - Commit #20 () for README.md
+ - COmmit #21 () for changes.md
