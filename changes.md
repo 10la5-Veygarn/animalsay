@@ -12,3 +12,6 @@ The tracker will, for obvious reasons, remain one commit behind main (because pu
 ### 22/6/22026 | 22 June 2026
  - Commit #9 (0669410) for v1.0.0
  - Commit #10 (0b7651b) for corrections
+ - Commit #11 (9c2996a) for changes.md
+ - Commit #12 (ab923e9) for changes to standalone animalsay.py file
+ - Commit #13 () for changes.md
