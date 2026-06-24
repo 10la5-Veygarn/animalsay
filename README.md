@@ -1,13 +1,13 @@
 # **AnimalSay**
 A cowsay-inspired Slack bot which can generate ASCII art of multiple animals saying user-inputted text. Currently, it can be accessed through either Slack or a web interface.
 
-![Slack Demo](images/slack-demo.gif)
+![Slack Demo](demos/slack-demo.gif)
 
-![Browser Demo](images/browser-demo.gif)
+![Browser Demo](demos/browser-demo.gif)
 
 ## **Architecture**
 
-![Architecture](images/animalsay-flow.png)
+![Architecture](demos/animalsay-flow.png)
 
 The bot is currently hosted on a VM provided by Hack Club Nest. Slack sends a POST request to the configured endpoint, which is routed to the Flask application. Flask processes the request, extracts the relevant arguments, and passes them to `handler()`. The handler coordinates the various Python modules, generates the requested ASCII art, and returns the formatted output to Slack, where it is displayed to the user.
 
